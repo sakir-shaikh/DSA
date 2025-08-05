@@ -1,17 +1,36 @@
-# LeetCode 242 - Valid Anagram  
-🔗 [Problem Link](https://leetcode.com/problems/valid-anagram/)  
+# Valid Anagram
 
-🧩 **Problem**:  
+## Problem Statement
+
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
 
-🧠 **Approach**:  
-Convert both strings to character arrays, sort them, and compare the sorted versions. If they're equal, `t` is an anagram of `s`.
+## Example
 
-⏱️ **Time & Space Complexity**:  
-O(n log n) time due to sorting, O(n) space to store the sorted arrays.
-
-📌 **Example**:  
-Input: s = "anagram", t = "nagaram"  
+Input: s = "anagram", t = "nagaram"
 Output: true
+Explanation: Both strings contain the same characters in any order.
 
-🏷️ **Tags**: String, Sorting, Hashing
+## Approach
+
+- Convert both strings to character arrays.
+- Sort them and compare the sorted versions.
+- If they're equal, `t` is an anagram of `s`.
+
+## Edge Cases
+
+- Strings are empty.
+- Strings have different lengths.
+
+## Complexity
+
+- Time: O(n log n) due to sorting.
+- Space: O(n) for the sorted arrays.
+
+## Implementation Notes
+
+- Can also use a hash map for counting characters.
+
+## References
+
+- [LeetCode 242 - Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- Tags: String, Sorting, Hashing

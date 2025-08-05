@@ -1,33 +1,53 @@
-Longest Common Prefix
-Problem Statement
-Write a function to find the longest common prefix string amongst an array of strings.
+# Longest Common Prefix
 
+## Problem Statement
+
+Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
 
-Examples
-Example 1:
+## Examples
+
+### Example 1
 
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
 Explanation: The longest common prefix among "flower", "flow", and "flight" is "fl".
 
-Example 2:
+### Example 2
 
 Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 
-Example 3:
+### Example 3
 
 Input: strs = ["apple"]
 Output: "apple"
 Explanation: With only one string, the string itself is the longest common prefix.
 
-Constraints
-1
-le
-textstrs.length
-le200
+## Approach
+
+- Compare characters of all strings at each index.
+- Stop when a mismatch is found or the end of any string is reached.
+
+## Edge Cases
+
+- Array is empty.
+- Array contains only one string.
+- Strings have no common prefix.
+
+## Complexity
+
+- Time: O(S) where S is the sum of all characters in all strings.
+- Space: O(1)
+
+## Implementation Notes
+
+- Use vertical scanning or horizontal scanning.
+
+## References
+
+- Tags: String, Array, Prefix
 
 0
 le
@@ -65,14 +85,14 @@ Return Result: Convert the StringBuilder content to a String and return it.
 
 Provided Solution Code
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
-        // Handle edge case: if the array has 0 or 1 string.
-        // If strs.length is 0, accessing strs[0] would throw an error.
-        // Assuming problem constraints guarantee at least one string (strs.length >= 1).
-        // If strs.length is 1, the string itself is the longest common prefix.
-        if (strs.length <= 1) {
-            return new StringBuilder().append(strs[0]).toString();
-        }
+public String longestCommonPrefix(String[] strs) {
+// Handle edge case: if the array has 0 or 1 string.
+// If strs.length is 0, accessing strs[0] would throw an error.
+// Assuming problem constraints guarantee at least one string (strs.length >= 1).
+// If strs.length is 1, the string itself is the longest common prefix.
+if (strs.length <= 1) {
+return new StringBuilder().append(strs[0]).toString();
+}
 
         // Sort the array of strings lexicographically.
         // After sorting, the strings with the smallest and largest prefixes
@@ -106,6 +126,7 @@ class Solution {
         // Convert the StringBuilder content to a String and return it.
         return sb.toString();
     }
+
 }
 
 Complexity Analysis
