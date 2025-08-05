@@ -1,12 +1,27 @@
-You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
-You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+# Best Time to Buy and Sell Stock
 
-Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+## Problem Statement
+Given an array where each element represents the price of a stock on a given day, find the maximum profit you can achieve by buying and selling once.
 
-Example 1:
+## Clarification
+- You must buy before you sell.
+- Return 0 if no profit is possible.
 
-Input: prices = [7,1,5,3,6,4]
-Output: 5
-Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
-Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+## Example
+Input: `[7, 1, 5, 3, 6, 4]`
+Output: `5` (Buy on day 2, sell on day 5)
+
+## Approach
+- Track the minimum price so far and calculate the profit at each step.
+
+## Edge Cases
+- If prices are always decreasing, return 0.
+- If the array is empty or has one element, return 0.
+
+## Implementation Notes
+- The solution uses a single pass to track minimum price and maximum profit.
+
+---
+
+See `Solution.java` for implementation details.
