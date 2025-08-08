@@ -1,33 +1,38 @@
-# LeetCode 73 - Set Matrix Zeroes
+# Set Matrix Zeroes
 
-🔗 [Problem Link](https://leetcode.com/problems/set-matrix-zeroes/)
+## Problem Statement
 
----
+Given an `m x n` integer matrix, if an element is `0`, set its entire row and column to `0`. You must do it in place.
 
-## 🧠 Problem Statement
+## Example
 
-Given an `m x n` integer matrix, if an element is `0`, set its entire row and column to `0`. You **must do it in place**.
+Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+Output: [[1,0,1],[0,0,0],[1,0,1]]
+Explanation: The element at (1,1) is 0, so set row 1 and column 1 to 0.
 
----
+## Approach
 
-## 📌 Constraints
+- Use the first row and first column as markers to keep track of zeroes.
+- Use two additional flags to separately handle the first row and column.
+- Traverse the matrix and mark the row and column headers if a zero is found.
+- In a second pass, set matrix cells to zero if their row or column is marked.
+- Finally, zero out the first row and/or column if the respective flags are set.
 
-- `1 <= m, n <= 200`
-- `-2³¹ <= matrix[i][j] <= 2³¹ - 1`
+## Edge Cases
 
----
+- Matrix has no zeroes.
+- Matrix is 1x1.
 
-## ✅ Approach: In-Place with Constant Space
+## Complexity
 
-1. Use the **first row and first column** as markers to keep track of zeroes.
-2. Use two additional flags (`firstRow`, `firstCol`) to separately handle the first row and column.
-3. Traverse the matrix:
-   - Mark the row and column headers if a zero is found.
-4. Second pass:
-   - Set matrix cells to zero if their row or column is marked.
-5. Finally, zero out the first row and/or column if the respective flags are set.
+- Time: O(m \* n)
+- Space: O(1)
 
----
+## Implementation Notes
 
-## ⏱️ Time Complexity
+- In-place solution using constant space.
 
+## References
+
+- [LeetCode 73 - Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- Tags: Array, Matrix, In-place

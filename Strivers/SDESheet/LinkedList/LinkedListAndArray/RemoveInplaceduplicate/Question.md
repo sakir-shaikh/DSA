@@ -1,39 +1,35 @@
-# LeetCode 26 - Remove Duplicates from Sorted Array
+# Remove Duplicates from Sorted Array
 
-🔗 [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+## Problem Statement
 
----
+Given a sorted array, remove the duplicates in-place such that each element appears only once and return the new length.
 
-## 🧠 Problem Statement
+## Example
 
-Given an integer array `nums` sorted in non-decreasing order, remove the duplicates **in-place** such that each unique element appears only once. The relative order of the elements should be kept the same. Return the number of unique elements.
+Input: [1,1,2]
+Output: 2, array = [1,2]
+Explanation: The array after removing duplicates is [1,2].
 
-You must do this with `O(1)` extra memory.
+## Approach
 
----
+- Use two pointers to overwrite duplicates.
 
-## ✅ Approach
+## Edge Cases
 
-1. Use two pointers: `i` for tracking the position of the last unique element, `j` for scanning through the array.
-2. Whenever a new unique element is found at `j`, increment `i` and set `nums[i] = nums[j]`.
-3. Return `i + 1` as the count of unique elements.
+- Array is empty.
+- Array has all duplicates.
+- Array has no duplicates.
 
-**Complexity:** `O(n)` time for one traversal, `O(1)` space in-place.
+## Complexity
 
----
+- Time: O(n)
+- Space: O(1)
 
-## 📘 Example
+## Implementation Notes
 
-**Input:**
-nums = [0,0,1,1,1,2,2,3,3,4]
+- In-place removal using two pointers.
 
+## References
 
-**Output:**
-5, nums = [0,1,2,3,4,...]
-
-
----
-
-## 🔁 Tags
-
-`Array` `Two Pointers` `In-place` `Sorting`
+- [LeetCode 26 - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- Tags: Array, Linked List, Two Pointers

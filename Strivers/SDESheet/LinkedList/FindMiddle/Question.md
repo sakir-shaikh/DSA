@@ -1,38 +1,34 @@
-# LeetCode 876 - Middle of the Linked List
+# Middle of the Linked List
 
-🔗 [Problem Link](https://leetcode.com/problems/middle-of-the-linked-list/)
+## Problem Statement
 
----
+Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
 
-## 🧠 Problem Statement
+## Example
 
-Given the head of a singly linked list, return the middle node of the linked list.
+Input: head = [1,2,3,4,5]
+Output: Node with value 3
+Explanation: The middle node is the third node in the list.
 
-If there are two middle nodes, return the second middle node.
+## Approach
 
----
+- Use two pointers, slow and fast. Move slow by one step and fast by two steps. When fast reaches the end, slow will be at the middle.
 
-## ✅ Approach
+## Edge Cases
 
-1. Traverse the list to calculate its total length.
-2. Traverse again up to `size / 2` steps to reach the middle node.
-3. Return the node at that position.
+- List has only one node.
+- List has an even number of nodes.
 
-**Complexity:** `O(n)` time for two traversals, `O(1)` space.
+## Complexity
 
----
+- Time: O(n)
+- Space: O(1)
 
-## 📘 Example
+## Implementation Notes
 
-**Input:**
-head = [1,2,3,4,5]
+- Handles both odd and even length lists.
 
+## References
 
-**Output:**
-3
-
----
-
-## 🔁 Tags
-
-`Linked List` `Two Pass` `Middle Node`
+- [LeetCode 876 - Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- Tags: Linked List, Two Pointers

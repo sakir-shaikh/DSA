@@ -1,30 +1,36 @@
-# LeetCode 88 - Merge Sorted Array
+# Merge Sorted Array
 
-🔗 [Problem Link](https://leetcode.com/problems/merge-sorted-array/)
+## Problem Statement
 
----
+You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n` representing the number of elements in `nums1` and `nums2`, respectively. Merge `nums2` into `nums1` as one sorted array in-place. `nums1` has a length of `m + n`, where the last `n` elements are set to `0` and should be ignored.
 
-## 🧠 Problem Statement
+## Example
 
-You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n` representing the number of elements in `nums1` and `nums2`, respectively.  
-Merge `nums2` into `nums1` as one sorted array in-place.
+Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+Explanation: Merge nums2 into nums1 and sort in-place.
 
-`nums1` has a length of `m + n`, where the last `n` elements are set to `0` and should be ignored.
+## Approach
 
----
+- Use two pointers to traverse both arrays from the end.
+- Place the largest element at the end of nums1.
+- Continue until all elements are merged.
 
-## ✅ Approach
+## Edge Cases
 
-1. Use two pointers to traverse both arrays: `first` for `nums1` and `last` for `nums2`.
-2. Create a temporary array `result` to store the merged elements.
-3. Merge by comparing elements at both pointers and placing the smaller one into `result`.
-4. Copy remaining elements from either array if one is exhausted.
-5. Overwrite the first `m + n` elements of `nums1` with `result`.
+- nums2 is empty.
+- nums1 is empty except for zeros.
 
-**Complexity:** `O(m + n)` time for merging, `O(m + n)` space for temporary array.
+## Complexity
 
----
+- Time: O(m + n)
+- Space: O(1) (in-place)
 
-## 📘 Example
+## Implementation Notes
 
-**Input:**
+- Start merging from the end to avoid overwriting elements in nums1.
+
+## References
+
+- [LeetCode 88 - Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+- Tags: Array, Two Pointers, Sorting
