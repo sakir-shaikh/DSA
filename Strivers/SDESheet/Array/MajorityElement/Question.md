@@ -2,31 +2,92 @@
 
 ## Problem Statement
 
-Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times.
+Given an array `nums` of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times. You may assume that the majority element always exists in the array.
 
-## Clarification
+## Examples
 
-- There is always a majority element in the array.
-- The solution should be efficient (O(n) time, O(1) space).
+### Example 1
 
-## Example
+```
+Input: nums = [3,2,3]
+Output: 3
+```
 
-Input: `[3, 3, 4, 2, 4, 4, 2, 4, 4]`
-Output: `4`
+### Example 2
 
-## Approach
+```
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
+```
 
-- Use the Boyer-Moore Voting Algorithm to find the majority element efficiently.
+## Approach & Intuition
+
+1. **Boyer-Moore Voting Algorithm**
+
+   - Initialize count = 0 and candidate
+   - For each element:
+     - If count = 0, pick current as candidate
+     - If current = candidate, count++
+     - Else count--
+   - Final candidate is majority element
+
+2. **Alternative Approaches**
+   - HashMap counting (O(n) space)
+   - Sorting and taking middle (O(nlogn) time)
+   - Bit manipulation
+
+## Complexity Analysis
+
+- Time Complexity: O(n)
+- Space Complexity: O(1)
 
 ## Edge Cases
 
-- If the array is empty, there is no majority element.
-- If all elements are the same, that element is the majority.
+1. Array with single element
+2. All elements same
+3. Majority element appearing exactly n/2+1 times
+4. Elements in different orders
+5. Negative numbers
 
-## Implementation Notes
+## Pattern Recognition
 
-- The solution iterates through the array to find a candidate and then verifies it.
+Use this approach when:
 
----
+- Finding element appearing > n/2 times
+- Need O(1) space solution
+- Similar problems: N/3 majority elements
 
-See `Solution.java` for implementation details.
+## Implementation Tips
+
+1. No need to verify final candidate (given majority exists)
+2. Can be extended for different thresholds
+3. Consider using long for count with large arrays
+4. Handle negative numbers properly
+
+## Common Templates
+
+```java
+// Boyer-Moore Voting Algorithm
+int count = 0, candidate = 0;
+for (int num : nums) {
+    if (count == 0) {
+        candidate = num;
+    }
+    count += (num == candidate) ? 1 : -1;
+}
+return candidate;
+```
+
+## Related Problems
+
+1. Majority Element II (elements > n/3)
+2. Mode in Binary Search Tree
+3. Find Duplicate Number
+4. Voting Algorithm applications
+
+## Common Mistakes
+
+1. Not handling negative numbers
+2. Unnecessary verification phase
+3. Using extra space unnecessarily
+4. Wrong count comparison

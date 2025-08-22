@@ -2,52 +2,166 @@
 
 ## Problem Statement
 
-Write a function to find the longest common prefix string amongst an array of strings.
-If there is no common prefix, return an empty string "".
+Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "". All given strings consist of lowercase English letters.
 
 ## Examples
 
 ### Example 1
 
-Input: strs = ["flower","flow","flight"]
+```
+Input: strs = ["flower", "flow", "flight"]
 Output: "fl"
-Explanation: The longest common prefix among "flower", "flow", and "flight" is "fl".
+Explanation: "fl" is the longest prefix common to all strings
+```
 
 ### Example 2
 
-Input: strs = ["dog","racecar","car"]
+```
+Input: strs = ["dog", "racecar", "car"]
 Output: ""
-Explanation: There is no common prefix among the input strings.
+Explanation: No common prefix exists
+```
 
 ### Example 3
 
-Input: strs = ["apple"]
-Output: "apple"
-Explanation: With only one string, the string itself is the longest common prefix.
+```
+Input: strs = ["interspecies", "interstellar", "interstate"]
+Output: "inters"
+```
 
-## Approach
+## Approach & Intuition
 
-- Compare characters of all strings at each index.
-- Stop when a mismatch is found or the end of any string is reached.
+There are four main approaches:
+
+1. **Horizontal Scanning**
+
+   ```java
+   String prefix = strs[0];
+   for (int i = 1; i < strs.length; i++) {
+       while (strs[i].indexOf(prefix) != 0) {
+           prefix = prefix.substring(0, prefix.length() - 1);
+           if (prefix.isEmpty()) return "";
+       }
+   }
+   return prefix;
+   ```
+
+2. **Vertical Scanning**
+
+   ```java
+   for (int i = 0; i < strs[0].length(); i++) {
+       char c = strs[0].charAt(i);
+       for (int j = 1; j < strs.length; j++) {
+           if (i >= strs[j].length() || strs[j].charAt(i) != c) {
+               return strs[0].substring(0, i);
+           }
+       }
+   }
+   return strs[0];
+   ```
+
+3. **Sorting Based (Most Efficient)**
+
+   ```java
+   Arrays.sort(strs);
+   String first = strs[0];
+   String last = strs[strs.length - 1];
+   int i = 0;
+   while (i < first.length() && i < last.length() &&
+          first.charAt(i) == last.charAt(i)) {
+       i++;
+   }
+   return first.substring(0, i);
+   ```
+
+4. **Divide and Conquer**
+   - Split array into two halves
+   - Find LCP of each half
+   - Merge results
+
+## Complexity Analysis
+
+1. Horizontal Scanning:
+
+   - Time: O(S), where S is sum of all characters
+   - Space: O(1)
+
+2. Vertical Scanning:
+
+   - Time: O(S)
+   - Space: O(1)
+
+3. Sorting Based:
+
+   - Time: O(NlogN \* M), where N is number of strings, M is max string length
+   - Space: O(1)
+
+4. Divide and Conquer:
+   - Time: O(S)
+   - Space: O(mlogn) due to recursion
 
 ## Edge Cases
 
-- Array is empty.
-- Array contains only one string.
-- Strings have no common prefix.
+1. Empty array
+2. Array with single string
+3. No common prefix
+4. All strings same
+5. Strings of varying lengths
+6. Empty strings in array
+7. Very long strings
+8. Unicode characters
 
-## Complexity
+## Pattern Recognition
 
-- Time: O(S) where S is the sum of all characters in all strings.
-- Space: O(1)
+Use this approach when:
 
-## Implementation Notes
+- Finding common starting substring
+- Prefix matching problems
+- Dictionary prefix problems
+- Similar problems:
+  - Longest Common Substring
+  - Trie implementation
+  - Auto-complete features
 
-- Use vertical scanning or horizontal scanning.
+## Implementation Tips
 
-## References
+1. Start with shortest string comparison
+2. Use early termination
+3. Consider StringBuilder for result
+4. Handle null inputs
+5. Choose approach based on input:
+   - Few long strings → Horizontal
+   - Many short strings → Vertical
+   - General case → Sorting based
 
-- Tags: String, Array, Prefix
+## Common Templates
+
+```java
+// Binary Search approach
+private String commonPrefix(String left, String right) {
+    int min = Math.min(left.length(), right.length());
+    for (int i = 0; i < min; i++) {
+        if (left.charAt(i) != right.charAt(i))
+            return left.substring(0, i);
+    }
+    return left.substring(0, min);
+}
+```
+
+## Related Problems
+
+1. Implement Trie (Prefix Tree)
+2. Add and Search Word
+3. Design Search Autocomplete System
+4. String Matching in Array
+
+## Common Mistakes
+
+1. Not handling empty array
+2. Incorrect comparison of string lengths
+3. Not considering empty strings
+4. Inefficient string concatenation
+5. Not handling Unicode properly
 
 0
 le
