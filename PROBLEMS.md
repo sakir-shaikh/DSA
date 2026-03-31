@@ -19,6 +19,7 @@ This file contains the complete list of solved problems in this repository, orga
 | [Search 2D Matrix](./Arrays/Search2DMatrix/Search2DMatrix_8_Java.java) | Arrays | Java | [Doc](./Arrays/Search2DMatrix/Search2DMatrix_8.md) |
 | [Set Matrix Zeros](./Arrays/SetMatrixZeros/SetMatrixZeros_9_Java.java) | Arrays | Java | [Doc](./Arrays/SetMatrixZeros/SetMatrixZeros_9.md) |
 | [Sort Colors](./Arrays/SortColors/SortColors_10_Java.java) | Arrays | Java | [Doc](./Arrays/SortColors/SortColors_10.md) |
+| [Two Sum](./Arrays/TwoSum/TwoSum_11_Java.java) | Arrays | Java | [Doc](./Arrays/TwoSum/TwoSum_11.md) |
 | [Backtracking](./Backtracking/Backtracking/Backtracking_7_Java.java) | Backtracking | Java | [Doc](./Backtracking/Backtracking/Backtracking_7.md) |
 | [Bit Manipulation](./BitManipulation/BitManipulation/BitManipulation_8_Java.java) | Bit Manipulation | Java | [Doc](./BitManipulation/BitManipulation/BitManipulation_8.md) |
 | [LRU Cache](./Design/LRUCache/LRUCache_6_Java.java) | Design | Java | [Doc](./Design/LRUCache/LRUCache_6.md) |
