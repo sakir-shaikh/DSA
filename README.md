@@ -23,7 +23,7 @@ The primary goal is to demonstrate a rigorous approach to problem-solving and a 
 
 ## 📊 Repository Stats
 
-- **Total Problems Solved:** 43
+- **Total Problems Solved:** 44
 - **Primary Language:** Java
 - **Languages Used:** Java, Markdown
 - **Topics Covered:** 17

@@ -25,6 +25,7 @@ This file contains the complete list of solved problems in this repository, orga
 | [Bellman Ford](./Graph/BellmanFord/BellmanFord_1_Java.java) | Graph | Java | [Doc](./Graph/BellmanFord/BellmanFord_1.md) |
 | [BFS](./Graph/BFS/BFS_2_Java.java) | Graph | Java | [Doc](./Graph/BFS/BFS_2.md) |
 | [Cycle Detection](./Graph/CycleDetection/CycleDetection_3_Java.java) | Graph | Java | [Doc](./Graph/CycleDetection/CycleDetection_3.md) |
+| [Happy Number](./Math/HappyNumber/HappyNumber_1_Java.java) | Math | Java | [Doc](./Math/HappyNumber/HappyNumber_1.md) |
 | [Heap Sort](./Heap/HeapSort/HeapSort_1.md) | Heap | Documentation | [Doc](./Heap/HeapSort/HeapSort_1.md) |
 | [Add Numbers As Linked List](./LinkedList/AddNumbersAsLinkedList/AddNumbersAsLinkedList_1_Java.java) | LinkedList | Java | [Doc](./LinkedList/AddNumbersAsLinkedList/AddNumbersAsLinkedList_1.md) |
 | [Find Middle](./LinkedList/FindMiddle/FindMiddle_2_Java.java) | LinkedList | Java | [Doc](./LinkedList/FindMiddle/FindMiddle_2.md) |
