@@ -6,11 +6,10 @@ This repository is a structured collection of Data Structures and Algorithms (DS
 
 - **Main Technology:** Java
 - **Documentation:** Markdown (`.md`)
-- **Structure:** Problems are organized by topic (e.g., `Arrays`, `LinkedList`, `Tree`, `Graph`).
+- **Structure:** Problems are organized by topic (e.g., `Arrays`, `LinkedList`, `Tree`, `Graph`, `Strings`).
 - **Components:** Each problem typically consists of:
     - A Java implementation file (`[ProblemName]_[ID]_Java.java`).
     - A detailed documentation file (`[ProblemName]_[ID].md`) covering problem statement, approach, complexity analysis, and edge cases.
-- **Goals:** Algorithmic efficiency (Time/Space complexity), clean and idiomatic code, and systematic problem-solving.
 
 ## Building and Running
 
@@ -43,8 +42,8 @@ The Java implementations are designed as standalone files. Many include a `main`
 - **Docs:** `[ProblemName]_[ID].md`
 
 ### Coding Standards
-- **Class Structure:** Most problems use a `Solution` class or a descriptive class name.
-- **Testing:** Include a `public static void main(String[] args)` method with sample test cases to verify the implementation.
+- **Class Structure:** Use a `public class Solution` or a descriptive class name.
+- **Testing:** Always include a `public static void main(String[] args)` method with sample test cases to verify the implementation.
 - **Naming:** Follow standard Java `camelCase` for variables and methods, and `PascalCase` for classes.
 - **Complexity:** Always prioritize the most optimal time and space complexity. Document these clearly in the associated `.md` file.
 
@@ -53,12 +52,26 @@ Each `.md` file must include:
 - **Problem Statement:** Clear description and constraints.
 - **Approach & Intuition:** Step-by-step logic, including visual examples if helpful.
 - **Complexity Analysis:** Explicit Big O notation for Time and Space.
-- **Edge Cases:** List of scenarios the solution handles (e.g., empty input, single element).
+- **Edge Cases:** List of scenarios the solution handles.
 - **Common Mistakes:** Pitfalls to avoid during implementation or interviews.
 
-## Adding a New Problem
-1. Identify the appropriate category (or create a new one).
-2. Create a subfolder for the problem.
-3. Add the Java implementation following the naming convention.
-4. Add the Markdown documentation file.
-5. Update `PROBLEMS.md` in the root directory to include the new problem.
+## Workflow: Adding a New Problem
+
+When adding a new problem, follow these specific steps to ensure consistency:
+
+1.  **Check Category:** Determine the most relevant category (e.g., `Strings`, `Arrays`). If it doesn't exist, create it.
+2.  **Assign ID:** Check the latest ID used in that category or globally. Use the next logical sequence number.
+3.  **Create Directory:** `mkdir [Category]/[ProblemName]`
+4.  **Implementation:**
+    - Create `[ProblemName]_[ID]_Java.java`.
+    - Ensure it includes a `main` method for verification.
+    - Avoid unnecessary packages unless specified.
+5.  **Documentation:**
+    - Create `[ProblemName]_[ID].md`.
+    - Follow the template: Statement, Approach, Complexity, Edge Cases, Mistakes.
+6.  **Update Index:**
+    - Append the new problem to `PROBLEMS.md` in the root directory.
+    - Format: `| [ProblemName] | [Category] | Java | [Doc Link] |`.
+7.  **Verification:**
+    - Compile and run the Java file to ensure all test cases pass.
+    - Check that Markdown links in `PROBLEMS.md` are correct.
