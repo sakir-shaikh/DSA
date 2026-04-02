@@ -7,6 +7,7 @@ This file contains the complete list of solved problems in this repository, orga
 | [Best Time to Sell Stock](./Arrays/BestTimeToSellStock/BestTimeToSellStock_1_Java.java) | Arrays | Java | [Doc](./Arrays/BestTimeToSellStock/BestTimeToSellStock_1.md) |
 | [Binary Search](./Arrays/BinarySearch/BinarySearch_1_Java.java) | Arrays | Java | [Doc](./Arrays/BinarySearch/BinarySearch_1.md) |
 | [Consecutive Ones](./Arrays/ConsecutiveOnes/ConsecutiveOnes_3_Java.java) | Arrays | Java | [Doc](./Arrays/ConsecutiveOnes/ConsecutiveOnes_3.md) |
+| [Contains Duplicate](./Arrays/ContainsDuplicate/ContainsDuplicate_12_Java.java) | Arrays | Java | [Doc](./Arrays/ContainsDuplicate/ContainsDuplicate_12.md) |
 | [Found Duplicate](./Arrays/FoundDuplicate/FoundDuplicate_2_Java.java) | Arrays | Java | [Doc](./Arrays/FoundDuplicate/FoundDuplicate_2.md) |
 | [Majority Element](./Arrays/MajorityElement/MajorityElement_3_Java.java) | Arrays | Java | [Doc](./Arrays/MajorityElement/MajorityElement_3.md) |
 | [Majority Elements 2](./Arrays/MajorityElements2/MajorityElements2_4_Java.java) | Arrays | Java | [Doc](./Arrays/MajorityElements2/MajorityElements2_4.md) |
