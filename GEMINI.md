@@ -69,9 +69,10 @@ When adding a new problem, follow these specific steps to ensure consistency:
 5.  **Documentation:**
     - Create `[ProblemName]_[ID].md`.
     - Follow the template: Statement, Approach, Complexity, Edge Cases, Mistakes.
-6.  **Update Index:**
-    - Append the new problem to `PROBLEMS.md` in the root directory.
-    - Format: `| [ProblemName] | [Category] | Java | [Doc Link] |`.
+6.  **Update Indexes & Stats:**
+    - **Global Index:** Append the new problem to `PROBLEMS.md` in the root directory. Format: `| [ProblemName] | [Category] | Java | [Doc Link] |`.
+    - **Category Index:** Add the problem to the table in `[Category]/README.md`, ensuring it matches the ID and links correctly.
+    - **Global Stats:** Increment the "Total Problems Solved" count in the root `README.md`.
 7.  **Verification:**
     - Compile and run the Java file to ensure all test cases pass.
-    - Check that Markdown links in `PROBLEMS.md` are correct.
+    - Check that all Markdown links in `PROBLEMS.md` and `[Category]/README.md` are correct.
