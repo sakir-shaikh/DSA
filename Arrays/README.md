@@ -21,6 +21,8 @@ Fundamental array operations, searching, and sorting algorithms. Arrays form the
 | 8 | [Search 2D Matrix](./Search2DMatrix) | [Java](./Search2DMatrix/Search2DMatrix_8_Java.java) | [Doc](./Search2DMatrix/Search2DMatrix_8.md) |
 | 9 | [Set Matrix Zeros](./SetMatrixZeros) | [Java](./SetMatrixZeros/SetMatrixZeros_9_Java.java) | [Doc](./SetMatrixZeros/SetMatrixZeros_9.md) |
 | 10 | [Sort Colors](./SortColors) | [Java](./SortColors/SortColors_10_Java.java) | [Doc](./SortColors/SortColors_10.md) |
+| 11 | [Two Sum](./TwoSum) | [Java](./TwoSum/TwoSum_11_Java.java) | [Doc](./TwoSum/TwoSum_11.md) |
+| 12 | [Contains Duplicate](./ContainsDuplicate) | [Java](./ContainsDuplicate/ContainsDuplicate_12_Java.java) | [Doc](./ContainsDuplicate/ContainsDuplicate_12.md) |
 
 ---
 *Back to [Root README](../README.md)*
