@@ -50,3 +50,4 @@ This file contains the complete list of solved problems in this repository, orga
 | [Top View](./Tree/TopView/TopView_3_Java.java) | Tree | Java | [Doc](./Tree/TopView/TopView_3.md) |
 | [Vertical Order Traversal](./Tree/VerticalOrderTraversal/VerticalOrderTraversal_8_Java.java) | Tree | Java | [Doc](./Tree/VerticalOrderTraversal/VerticalOrderTraversal_8.md) |
 | [ZigZag Traversal](./Tree/ZigZagTraversal/ZigZagTraversal_9_Java.java) | Tree | Java | [Doc](./Tree/ZigZagTraversal/ZigZagTraversal_9.md) |
+| [Container With Most Water](./TwoPointers/ContainerWithMostWater/ContainerWithMostWater_1_Java.java) | TwoPointers | Java | [Doc](./TwoPointers/ContainerWithMostWater/ContainerWithMostWater_1.md) |
