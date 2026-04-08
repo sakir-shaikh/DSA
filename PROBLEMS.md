@@ -40,6 +40,7 @@ This file contains the complete list of solved problems in this repository, orga
 | [Anagrams](./Strings/Anagrams/Anagrams_1_Java.java) | Strings | Java | [Doc](./Strings/Anagrams/Anagrams_1.md) |
 | [Longest Common Prefix](./Strings/LongestCommonPrefix/LongestCommonPrefix_2_Java.java) | Strings | Java | [Doc](./Strings/LongestCommonPrefix/LongestCommonPrefix_2.md) |
 | [Reverse Words](./Strings/ReverseWords/ReverseWords_3_Java.java) | Strings | Java | [Doc](./Strings/ReverseWords/ReverseWords_3.md) |
+| [Trapping Rain Water](./TwoPointers/TrappingRainWater/TrappingRainWater_2_Java.java) | TwoPointers | Java | [Doc](./TwoPointers/TrappingRainWater/TrappingRainWater_2.md) |
 | [Valid Palindrome](./Strings/ValidPalindrome/ValidPalindrome_5_Java.java) | Strings | Java | [Doc](./Strings/ValidPalindrome/ValidPalindrome_5.md) |
 | [Depth Of Tree](./Tree/DepthOfTree/DepthOfTree_1_Java.java) | Tree | Java | [Doc](./Tree/DepthOfTree/DepthOfTree_1.md) |
 | [In-Order Traversal](./Tree/InOrderTraversal/InOrderTraversal_4_Java.java) | Tree | Java | [Doc](./Tree/InOrderTraversal/InOrderTraversal_4.md) |
