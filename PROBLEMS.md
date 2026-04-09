@@ -17,6 +17,7 @@ This file contains the complete list of solved problems in this repository, orga
 | [Merged Sorted Array](./Arrays/MergedSortedArray/MergedSortedArray_7_Java.java) | Arrays | Java | [Doc](./Arrays/MergedSortedArray/MergedSortedArray_7.md) |
 | [Quick Sort](./Arrays/QuickSort/QuickSort_3.md) | Arrays | Documentation | [Doc](./Arrays/QuickSort/QuickSort_3.md) |
 | [Remove Duplicate In Place](./Arrays/RemoveDuplicateInPlace/RemoveDuplicateInPlace_4_Java.java) | Arrays | Java | [Doc](./Arrays/RemoveDuplicateInPlace/RemoveDuplicateInPlace_4.md) |
+| [Remove Element](./Arrays/RemoveElement/RemoveElement_13_Java.java) | Arrays | Java | [Doc](./Arrays/RemoveElement/RemoveElement_13.md) |
 | [Search 2D Matrix](./Arrays/Search2DMatrix/Search2DMatrix_8_Java.java) | Arrays | Java | [Doc](./Arrays/Search2DMatrix/Search2DMatrix_8.md) |
 | [Set Matrix Zeros](./Arrays/SetMatrixZeros/SetMatrixZeros_9_Java.java) | Arrays | Java | [Doc](./Arrays/SetMatrixZeros/SetMatrixZeros_9.md) |
 | [Sort Colors](./Arrays/SortColors/SortColors_10_Java.java) | Arrays | Java | [Doc](./Arrays/SortColors/SortColors_10.md) |

@@ -23,6 +23,7 @@ Fundamental array operations, searching, and sorting algorithms. Arrays form the
 | 10 | [Sort Colors](./SortColors) | [Java](./SortColors/SortColors_10_Java.java) | [Doc](./SortColors/SortColors_10.md) |
 | 11 | [Two Sum](./TwoSum) | [Java](./TwoSum/TwoSum_11_Java.java) | [Doc](./TwoSum/TwoSum_11.md) |
 | 12 | [Contains Duplicate](./ContainsDuplicate) | [Java](./ContainsDuplicate/ContainsDuplicate_12_Java.java) | [Doc](./ContainsDuplicate/ContainsDuplicate_12.md) |
+| 13 | [Remove Element](./RemoveElement) | [Java](./RemoveElement/RemoveElement_13_Java.java) | [Doc](./RemoveElement/RemoveElement_13.md) |
 
 ---
 *Back to [Root README](../README.md)*
