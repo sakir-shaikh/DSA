@@ -26,7 +26,7 @@ The primary goal is to demonstrate a rigorous approach to problem-solving and a 
 - **Total Problems Solved:** 49
 - **Primary Language:** Java
 - **Languages Used:** Java, Markdown
-- **Topics Covered:** 17
+- **Topics Covered:** 24
 - **Documentation Coverage:** 100%
 
 ---
@@ -40,13 +40,16 @@ The repository is organized into industry-standard categories:
 *   **LinkedList** - Pointer-based structures and traversal.
 *   **Stack & Queue** - Linear data structures with specific access patterns.
 *   **Tree** - Hierarchical structures and advanced traversals.
-*   **Graph** - Network traversals and shortest path algorithms.
+*   **Graph** - Network traversals, shortest paths, and connectivity.
+*   **Binary Search** - Logarithmic search algorithms and optimization.
+*   **Sorting Algorithms** - Implementations of Merge Sort, Quick Sort, and Heap Sort.
+*   **Two Pointers** - Efficient array and list traversal techniques.
 *   **Heap** - Priority-based optimizations.
 *   **Design** - Low-level design of data structures (e.g., LRU Cache).
 *   **Math** - Number theory and mathematical computations.
 *   **Backtracking** - Constraint satisfaction and exhaustive search.
 *   **Bit Manipulation** - Efficient bitwise operations.
-*   **Placeholder Categories:** Hashing, Dynamic Programming, Greedy, Sliding Window, Two Pointers (active development).
+*   **Placeholder Categories:** Hashing, Dynamic Programming, Greedy, Sliding Window (active development).
 
 ---
 
@@ -56,21 +59,27 @@ The repository is organized into industry-standard categories:
 DSA/
 ├── Arrays/
 ├── Strings/
-├── Hashing/
 ├── LinkedList/
 ├── Stack/
 ├── Queue/
 ├── Tree/
 ├── Graph/
-├── Heap/
-├── DynamicProgramming/
-├── Greedy/
-├── Backtracking/
-├── SlidingWindow/
+├── BinarySearch/
+├── MergeSort/
+├── QuickSort/
+├── HeapSort/
+├── BFS/
+├── BellmanFord/
+├── CycleDetection/
 ├── TwoPointers/
+├── Backtracking/
 ├── BitManipulation/
 ├── Design/
-└── Math/
+├── Math/
+├── Hashing/
+├── DynamicProgramming/
+├── Greedy/
+└── SlidingWindow/
 ```
 
 ---
