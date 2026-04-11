@@ -6,7 +6,7 @@ An algorithmic technique for solving problems recursively by trying to build a s
 
 | # | Problem Name | Code | Documentation |
 |---|--------------|------|---------------|
-| 7 | [Backtracking](./Backtracking) | [Java](./Backtracking/Backtracking_7_Java.java) | [Doc](./Backtracking/Backtracking_7.md) |
+| 7 | [Backtracking](./) | [Java](./Backtracking_7_Java.java) | [Doc](./Backtracking_7.md) |
 
 ---
 *Back to [Root README](../README.md)*

@@ -1,20 +1,97 @@
-# Tree
+# Binary Trees Problems
 
-Hierarchical data structures, focusing on binary trees, BSTs, and advanced traversal techniques (pre-order, in-order, post-order, level-order).
+## Overview
 
-## 📁 Problems
+Binary Trees are hierarchical data structures where each node has at most two children. This section covers various tree traversal techniques and problem-solving patterns.
 
-| # | Problem Name | Code | Documentation |
-|---|--------------|------|---------------|
-| 1 | [Depth Of Tree](./DepthOfTree) | [Java](./DepthOfTree/DepthOfTree_1_Java.java) | [Doc](./DepthOfTree/DepthOfTree_1.md) |
-| 2 | [Right View Of Tree](./RightViewOfTree) | [Java](./RightViewOfTree/RightViewOfTree_2_Java.java) | [Doc](./RightViewOfTree/RightViewOfTree_2.md) |
-| 3 | [Top View](./TopView) | [Java](./TopView/TopView_3_Java.java) | [Doc](./TopView/TopView_3.md) |
-| 4 | [In-Order Traversal](./InOrderTraversal) | [Java](./InOrderTraversal/InOrderTraversal_4_Java.java) | [Doc](./InOrderTraversal/InOrderTraversal_4.md) |
-| 5 | [Level-Order Traversal](./LevelOrderTraversal) | [Java](./LevelOrderTraversal/LevelOrderTraversal_5_Java.java) | [Doc](./LevelOrderTraversal/LevelOrderTraversal_5.md) |
-| 6 | [Post-Order Traversal](./PostOrderTraversal) | [Java](./PostOrderTraversal/PostOrderTraversal_6_Java.java) | [Doc](./PostOrderTraversal/PostOrderTraversal_6.md) |
-| 7 | [Pre-Order Traversal](./PreOrderTraversal) | [Java](./PreOrderTraversal/PreOrderTraversal_7_Java.java) | [Doc](./PreOrderTraversal/PreOrderTraversal_7.md) |
-| 8 | [Vertical Order Traversal](./VerticalOrderTraversal) | [Java](./VerticalOrderTraversal/VerticalOrderTraversal_8_Java.java) | [Doc](./VerticalOrderTraversal/VerticalOrderTraversal_8.md) |
-| 9 | [ZigZag Traversal](./ZigZagTraversal) | [Java](./ZigZagTraversal/ZigZagTraversal_9_Java.java) | [Doc](./ZigZagTraversal/ZigZagTraversal_9.md) |
+## Common Patterns
 
----
-*Back to [Root README](../README.md)*
+1. **Tree Traversals**
+
+   - Inorder (Left-Root-Right)
+   - Preorder (Root-Left-Right)
+   - Postorder (Left-Right-Root)
+   - Level Order (BFS)
+
+2. **View Problems**
+
+   - Top View
+   - Bottom View
+   - Left View
+   - Right View
+   - Vertical Order
+
+3. **Tree Properties**
+   - Height/Depth
+   - Balanced Tree
+   - Symmetric Tree
+   - Path Problems
+
+## Problem List
+
+| Problem                                               | Pattern         | Difficulty |
+| ----------------------------------------------------- | --------------- | ---------- |
+| [Depth of Tree](./DepthOfTree/)                       | Tree Properties | Easy       |
+| [Right View](./RightViewOfTree/)                      | View Problems   | Medium     |
+| [Top View](./TopView/)                                | View Problems   | Medium     |
+| [Inorder Traversal](./Traversal/InOrder/)             | Tree Traversal  | Easy       |
+| [Level Order Traversal](./Traversal/LevelOrder/)      | Tree Traversal  | Medium     |
+| [Postorder Traversal](./Traversal/PostOrder/)         | Tree Traversal  | Easy       |
+| [Preorder Traversal](./Traversal/PreOrder/)           | Tree Traversal  | Easy       |
+| [Vertical Order Traversal](./VerticalOrderTraversal/) | View Problems   | Hard       |
+| [ZigZag Traversal](./ZigZagTraversal/)                | Tree Traversal  | Medium     |
+
+## Learning Path
+
+1. Learn basic traversals (In, Pre, Post)
+2. Master level order traversal
+3. Understand view problems
+4. Practice tree properties
+5. Tackle complex transformations
+
+## Key Concepts
+
+1. **Tree Node Structure**
+
+   ```java
+   class TreeNode {
+       int val;
+       TreeNode left;
+       TreeNode right;
+   }
+   ```
+
+2. **Common Templates**
+
+   ```java
+   // Level Order (BFS)
+   Queue<TreeNode> queue = new LinkedList<>();
+   queue.offer(root);
+   while (!queue.isEmpty()) {
+       int levelSize = queue.size();
+       for (int i = 0; i < levelSize; i++) {
+           TreeNode node = queue.poll();
+           // process node
+           if (node.left != null) queue.offer(node.left);
+           if (node.right != null) queue.offer(node.right);
+       }
+   }
+
+   // DFS Template
+   void dfs(TreeNode node) {
+       if (node == null) return;
+       // process node (preorder)
+       dfs(node.left);
+       // process node (inorder)
+       dfs(node.right);
+       // process node (postorder)
+   }
+   ```
+
+## Folder Structure
+
+Each problem folder contains:
+
+- `Question.md`: Problem statement, examples, approach
+- `Solution.java`: Implementation with detailed comments
+- `TestCases.md` (where applicable): Test scenarios

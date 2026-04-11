@@ -5,25 +5,25 @@ This file contains the complete list of solved problems in this repository, orga
 | Problem | Category | Language | Explanation |
 |:---|:---|:---|:---|
 | [Best Time to Sell Stock](./Arrays/BestTimeToSellStock/BestTimeToSellStock_1_Java.java) | Arrays | Java | [Doc](./Arrays/BestTimeToSellStock/BestTimeToSellStock_1.md) |
-| [Binary Search](./Arrays/BinarySearch/BinarySearch_1_Java.java) | Arrays | Java | [Doc](./Arrays/BinarySearch/BinarySearch_1.md) |
+| [Binary Search](./BinarySearch/BinarySearch_1_Java.java) | Arrays | Java | [Doc](./BinarySearch/BinarySearch_1.md) |
 | [Consecutive Ones](./Arrays/ConsecutiveOnes/ConsecutiveOnes_3_Java.java) | Arrays | Java | [Doc](./Arrays/ConsecutiveOnes/ConsecutiveOnes_3.md) |
 | [Contains Duplicate](./Arrays/ContainsDuplicate/ContainsDuplicate_12_Java.java) | Arrays | Java | [Doc](./Arrays/ContainsDuplicate/ContainsDuplicate_12.md) |
 | [Found Duplicate](./Arrays/FoundDuplicate/FoundDuplicate_2_Java.java) | Arrays | Java | [Doc](./Arrays/FoundDuplicate/FoundDuplicate_2.md) |
 | [Majority Element](./Arrays/MajorityElement/MajorityElement_3_Java.java) | Arrays | Java | [Doc](./Arrays/MajorityElement/MajorityElement_3.md) |
 | [Majority Elements 2](./Arrays/MajorityElements2/MajorityElements2_4_Java.java) | Arrays | Java | [Doc](./Arrays/MajorityElements2/MajorityElements2_4.md) |
 | [Max Sub Array](./Arrays/MaxSubArray/MaxSubArray_5_Java.java) | Arrays | Java | [Doc](./Arrays/MaxSubArray/MaxSubArray_5.md) |
-| [Merge Sort](./Arrays/MergeSort/MergeSort_2.md) | Arrays | Documentation | [Doc](./Arrays/MergeSort/MergeSort_2.md) |
+| [Merge Sort](./MergeSort/MergeSort_2.md) | Arrays | Documentation | [Doc](./MergeSort/MergeSort_2.md) |
 | [Merged Overlaps](./Arrays/MergedOverlaps/MergedOverlaps_6_Java.java) | Arrays | Java | [Doc](./Arrays/MergedOverlaps/MergedOverlaps_6.md) |
 | [Merged Sorted Array](./Arrays/MergedSortedArray/MergedSortedArray_7_Java.java) | Arrays | Java | [Doc](./Arrays/MergedSortedArray/MergedSortedArray_7.md) |
-| [Quick Sort](./Arrays/QuickSort/QuickSort_3.md) | Arrays | Documentation | [Doc](./Arrays/QuickSort/QuickSort_3.md) |
+| [Quick Sort](./QuickSort/QuickSort_3.md) | Arrays | Documentation | [Doc](./QuickSort/QuickSort_3.md) |
 | [Remove Duplicate In Place](./Arrays/RemoveDuplicateInPlace/RemoveDuplicateInPlace_4_Java.java) | Arrays | Java | [Doc](./Arrays/RemoveDuplicateInPlace/RemoveDuplicateInPlace_4.md) |
 | [Remove Element](./Arrays/RemoveElement/RemoveElement_13_Java.java) | Arrays | Java | [Doc](./Arrays/RemoveElement/RemoveElement_13.md) |
 | [Search 2D Matrix](./Arrays/Search2DMatrix/Search2DMatrix_8_Java.java) | Arrays | Java | [Doc](./Arrays/Search2DMatrix/Search2DMatrix_8.md) |
 | [Set Matrix Zeros](./Arrays/SetMatrixZeros/SetMatrixZeros_9_Java.java) | Arrays | Java | [Doc](./Arrays/SetMatrixZeros/SetMatrixZeros_9.md) |
 | [Sort Colors](./Arrays/SortColors/SortColors_10_Java.java) | Arrays | Java | [Doc](./Arrays/SortColors/SortColors_10.md) |
 | [Two Sum](./Arrays/TwoSum/TwoSum_11_Java.java) | Arrays | Java | [Doc](./Arrays/TwoSum/TwoSum_11.md) |
-| [Backtracking](./Backtracking/Backtracking/Backtracking_7_Java.java) | Backtracking | Java | [Doc](./Backtracking/Backtracking/Backtracking_7.md) |
-| [Bit Manipulation](./BitManipulation/BitManipulation/BitManipulation_8_Java.java) | Bit Manipulation | Java | [Doc](./BitManipulation/BitManipulation/BitManipulation_8.md) |
+| [Backtracking](./Backtracking/Backtracking_7_Java.java) | Backtracking | Java | [Doc](./Backtracking/Backtracking_7.md) |
+| [Bit Manipulation](./BitManipulation/BitManipulation_8_Java.java) | Bit Manipulation | Java | [Doc](./BitManipulation/BitManipulation_8.md) |
 | [LRU Cache](./Design/LRUCache/LRUCache_6_Java.java) | Design | Java | [Doc](./Design/LRUCache/LRUCache_6.md) |
 | [Bellman Ford](./Graph/BellmanFord/BellmanFord_1_Java.java) | Graph | Java | [Doc](./Graph/BellmanFord/BellmanFord_1.md) |
 | [BFS](./Graph/BFS/BFS_2_Java.java) | Graph | Java | [Doc](./Graph/BFS/BFS_2.md) |

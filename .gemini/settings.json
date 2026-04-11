@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "leetcode": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jinzcdev/leetcode-mcp-server",
+        "--site",
+        "global"
+      ]
+    },
+    "": {
+      "command": "leetcode",
+      "args": [
+        "npx",
+        "-y",
+        "@jinzcdev/leetcode-mcp-server",
+        "--site",
+        "global"
+      ]
+    }
+  }
+}
