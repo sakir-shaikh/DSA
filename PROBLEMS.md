@@ -33,6 +33,7 @@ This file contains the complete list of solved problems in this repository, orga
 | [Add Numbers As Linked List](./LinkedList/AddNumbersAsLinkedList/AddNumbersAsLinkedList_1_Java.java) | LinkedList | Java | [Doc](./LinkedList/AddNumbersAsLinkedList/AddNumbersAsLinkedList_1.md) |
 | [Find Middle](./LinkedList/FindMiddle/FindMiddle_2_Java.java) | LinkedList | Java | [Doc](./LinkedList/FindMiddle/FindMiddle_2.md) |
 | [Merge Two Sorted Lists](./LinkedList/MergeTwoSortedLists/MergeTwoSortedLists_7_Java.java) | LinkedList | Java | [Doc](./LinkedList/MergeTwoSortedLists/MergeTwoSortedLists_7.md) |
+| [Partition List](./LinkedList/PartitionList/PartitionList_8_Java.java) | LinkedList | Java | [Doc](./LinkedList/PartitionList/PartitionList_8.md) |
 | [Remove Nth Node From Last](./LinkedList/RemoveNthNodeFromLast/RemoveNthNodeFromLast_5_Java.java) | LinkedList | Java | [Doc](./LinkedList/RemoveNthNodeFromLast/RemoveNthNodeFromLast_5.md) |
 | [Reverse Linked List](./LinkedList/ReverseLinkedList/ReverseLinkedList_6_Java.java) | LinkedList | Java | [Doc](./LinkedList/ReverseLinkedList/ReverseLinkedList_6.md) |
 | [Nth Root Of N](./Math/NthRootOfN/NthRootOfN_2_Java.java) | Math | Java | [Doc](./Math/NthRootOfN/NthRootOfN_2.md) |

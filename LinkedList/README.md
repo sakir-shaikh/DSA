@@ -31,6 +31,8 @@ Linked Lists are linear data structures where elements are stored in nodes, each
 | ----------------------------------------------------------------- | ---------------- | ---------- |
 | [Add Numbers as LinkedList](./AddNumbersAsLinkedList/)            | Mathematical     | Medium     |
 | [Find Middle](./FindMiddle/)                                      | Two Pointers     | Easy       |
+| [Merge Two Sorted Lists](./MergeTwoSortedLists/)                 | Modification     | Easy       |
+| [Partition List](./PartitionList/)                                | Two Pointers     | Medium     |
 | [Remove Nth Node From End](./RemoveNthNodeFromLast/)              | Two Pointers     | Medium     |
 | [Reverse LinkedList](./ReverseLinkedList/)                        | Reversal         | Easy       |
 | [Consecutive Ones](./LinkedListAndArray/ConsecutivesOnes/)        | Array Conversion | Medium     |
