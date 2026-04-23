@@ -31,6 +31,7 @@ String manipulation is a fundamental aspect of programming. This section covers 
 | [Longest Common Prefix](./LongestCommonPrefix/) | String Comparison   | Easy       |
 | [Reverse Words](./ReverseWords/)                | String Manipulation | Medium     |
 | [Roman To Integer](./RomanToInteger/)           | String Parsing      | Easy       |
+| [Two Edit Words](./TwoEditWords/)             | String Comparison   | Medium     |
 
 ## Learning Path
 

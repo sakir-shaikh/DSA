@@ -54,3 +54,4 @@ This file contains the complete list of solved problems in this repository, orga
 | [Vertical Order Traversal](./Tree/VerticalOrderTraversal/VerticalOrderTraversal_8_Java.java) | Tree | Java | [Doc](./Tree/VerticalOrderTraversal/VerticalOrderTraversal_8.md) |
 | [ZigZag Traversal](./Tree/ZigZagTraversal/ZigZagTraversal_9_Java.java) | Tree | Java | [Doc](./Tree/ZigZagTraversal/ZigZagTraversal_9.md) |
 | [Container With Most Water](./TwoPointers/ContainerWithMostWater/ContainerWithMostWater_1_Java.java) | TwoPointers | Java | [Doc](./TwoPointers/ContainerWithMostWater/ContainerWithMostWater_1.md) |
+| [Two Edit Words](./Strings/TwoEditWords/TwoEditWords_6_Java.java) | Strings | Java | [Doc](./Strings/TwoEditWords/TwoEditWords_6.md) |
